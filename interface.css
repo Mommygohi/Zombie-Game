@@ -1,0 +1,118 @@
+body {
+  user-select:none;
+}
+
+td {
+  width:100px;
+  height:100px;
+  text-align:center;
+  background-color:lightgreen;
+}
+
+table {
+  border-spacing:0px;
+  width:100%;
+  height:100%;
+  overflow:auto;
+  table-layout:fixed;
+}
+
+#viewport {
+  width:700px;
+  height:700px;
+  margin-bottom:25px;
+}
+
+#viewport td {
+  width:100px;
+  height:100px;
+}
+
+#everything {
+  display:none;
+}
+
+#health_bar {
+  width:15%;
+  height:5%;
+  border:2px solid black;
+  background-color:lightgray;
+  position:absolute;
+  z-index:1;
+  left:5%;
+  top:88%;
+}
+
+#health {
+  background-color:green;
+  float:left;
+  width:100%;
+  height:100%;
+}
+
+#gun_slot {
+  width:5%;
+  height:10%;
+  position:absolute;
+  z-index:1;
+  left:5%;
+  top:75%;
+  border:2px solid black;
+  background-color:gray;
+}
+
+.zombie {
+  background-color:#4c7d4c;
+}
+
+.wall {
+  background-color:gray;
+}
+
+.door {
+  background-image:url("Images/door.jpg");
+}
+
+.floor, .bridge {
+  background-color:#69402c;
+}
+
+.crate {
+  background-image:url("Images/crate.jpg");
+}
+
+.road {
+  background-color:black;
+}
+
+.road_line {
+  background-color:yellow;
+}
+
+.sidewalk {
+  background-color:darkgray;
+}
+
+.river {
+  background-color:lightblue;
+}
+
+.bridge_barrier {
+  background-color:#2b1b13;
+}
+
+.sand {
+  background-color:#d1c95e;
+}
+
+.player {
+  background-color:salmon;
+}
+
+.zombie1, .zombie2, .zombie3 {
+  background-color:#4c7d4c;
+}
+
+.bullet {
+  background-color:black;
+}
